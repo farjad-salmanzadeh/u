@@ -1,0 +1,46 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Person {
+private:
+    string name;
+public:
+    int age;
+    Person(string n, int a) {
+        name = n;
+        age = a;
+    }
+    void displayName() const {
+        cout << "Name: " << name << endl;
+    }
+    void displayAge() const {
+        cout << "Age: " << age << endl;
+    }
+};
+
+int main() {
+    Person person1("Ali", 25);
+    Person person2("Sara", 30);
+    Person person3("Reza", 27);
+    Person person4("Neda", 22);
+    Person person5("Mina", 29);
+
+
+    person1.displayName();
+    person1.displayAge();
+
+    person2.displayName();
+    person2.displayAge();
+
+    person3.displayName();
+    person3.displayAge();
+
+    person4.displayName();
+    person4.displayAge();
+
+    person5.displayName();
+    person5.displayAge();
+
+    return 0;
+}
