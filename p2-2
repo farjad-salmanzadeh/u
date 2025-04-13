@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+    class peaple
+    {
+        private:
+         double mohasebeage {
+             int tedad;
+             int names [tedad]={ali,ahmad,ghasem}
+             int age[tedad]={11,15,22}
+             int totalage;
+             for(int i=0,i<tedad,i++){
+                 totalage +=age[i];
+             }
+         }
+        
+ }
+    public:
+    double avg=mohasebeage();
+    }
