@@ -1,0 +1,32 @@
+#include <iostream>;
+using namespace std;
+class person{
+    protected:
+     int id=0
+}
+class student:person{
+    private:
+    int name=reza akrami
+}
+{
+    protected:
+    int getstudentid(){
+        id=1
+        int tedad=12
+        int nomre [tedad]={ ,  , , , , ,}
+        int totalnomre=0
+        for(int i=0;i<tedad,i++){
+            totalnomre+=nomre[i]
+        }
+    }
+}
+class teacher:person{
+    private:
+    int ahmad karami
+}
+protected:
+int getteacherid(){
+    id=1
+    int size=1
+    int salary[size]={}
+}
